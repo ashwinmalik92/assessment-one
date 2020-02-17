@@ -1,0 +1,33 @@
+body {
+    background-image: url('../images/background.jpeg');
+}
+h1 {
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 125px;
+}
+div {
+    padding: 25px; 
+    margin: 5px;
+    text-align: center; 
+}
+#mystuff {
+    display:                grid;
+    grid-template-columns:  auto auto;
+    grid-template-rows:     auto auto auto auto auto;
+}
+
+@media all and (min-width: 800px) {
+    #mystuff {
+        grid-template-columns:  auto auto auto;
+        grid-template-rows:     auto auto auto;
+    }
+    div:nth-child(odd) { 
+        border: 1px solid black;
+    }
+}
