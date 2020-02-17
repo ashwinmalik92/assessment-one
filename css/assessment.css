@@ -11,7 +11,7 @@ img {
     margin: 0 auto 10px auto;
     width: 125px;
 }
-div {
+#mystuff div {
     padding: 25px; 
     margin: 5px;
     text-align: center; 
